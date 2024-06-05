@@ -82,7 +82,11 @@ export const ChatList = () => {
           />
         </div>
         <img
-          src={add ? "src/assets/minus.png" : "src/assets/plus.png"}
+          src={
+            add
+              ? "public/static/images/minus.png"
+              : "public/static/images/plus.png"
+          }
           alt=""
           className="add"
           onClick={() => setAdd((prev) => !prev)}
