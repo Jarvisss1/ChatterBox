@@ -1,0 +1,108 @@
+.login{
+    height: 100%;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    gap: 100px;
+
+    .item{
+        flex: 1;
+        display: flex;
+        flex-direction: column;
+        gap: 20px;
+        align-items: center;
+
+        h2{
+            margin-bottom: 0;
+            margin: 0;
+            text-align: center;
+            h1{
+                margin: 0;
+                text-shadow: #dddddd35;
+                color: #409cec;
+                text-decoration: #1f8ef1;
+            }
+        }
+
+        form{
+            display: flex;
+            flex-direction: column;
+            gap: 20px;
+            
+            align-items: center;
+
+            .pass{
+                    display: flex;
+                    align-items: center;
+                   border-radius:   5px;
+                    background-color: rgba(17,25,40,0.6);
+                    justify-content: space-between;
+                    width: 100%;
+                    input{
+                        background-color: transparent;
+                        border: none;
+                        outline: none;
+                        border-radius: 0px;
+                        
+                    }
+                    svg{
+                        cursor: pointer;
+                        padding-right: 10px;
+                        width: 20px;
+                        height: 20px;
+                    }
+                }
+
+            input{
+
+                width: 85%;
+                padding: 15px;
+                border: none;
+                outline: none;
+                border-radius: 5px;
+                background-color: rgba(17,25,40,0.6);
+                color: white;
+
+                
+            }
+
+            label{
+                display: flex;
+                align-items: center;
+                width: 100%;
+                text-decoration: underline;
+                font-weight: 400;
+                justify-content: space-between;
+                cursor: pointer;
+                img{
+                    border-radius: 10px;
+                    object-fit: cover;
+                    opacity: 0.7;
+                }
+            }
+
+            button{
+                padding: 10px;
+                width: 100%;
+                border: none;
+                border-radius: 5px;
+                background-color: #1f8ef1;
+                color: white;
+                font-weight: 700;
+                font-size: 16px;
+                cursor: pointer;
+
+                &:disabled{
+                    background-color: #1f8ef150;
+                    cursor: not-allowed;
+                }
+            }
+        }
+    }
+
+    .separator{
+        height: 80%;
+        width: 1px;
+        background-color: #dddddd35;
+    }
+}
