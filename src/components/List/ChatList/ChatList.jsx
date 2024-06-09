@@ -84,8 +84,8 @@ export const ChatList = () => {
         <img
           src={
             add
-              ? "public/static/images/minus.png"
-              : "public/static/images/plus.png"
+              ? "static/images/minus.png"
+              : "static/images/plus.png"
           }
           alt=""
           className="add"
