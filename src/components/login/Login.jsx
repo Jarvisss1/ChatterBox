@@ -95,7 +95,7 @@ export const Login = () => {
     <div className="login">
       <div className="item">
         <img
-          src="public/static/images/ChatterBox_transparent.png"
+          src="static/images/ChatterBox_transparent.png"
           alt=""
           width={`200px`}
           height={`200px`}
@@ -133,7 +133,7 @@ export const Login = () => {
         <form onSubmit={handleRegister}>
           <label htmlFor="file">
             <img
-              src={avatar.url || "public/static/images/avatar.png"}
+              src={avatar.url || "static/images/avatar.png"}
               alt=""
               style={{ width: "40px", height: "40px" }}
             />
